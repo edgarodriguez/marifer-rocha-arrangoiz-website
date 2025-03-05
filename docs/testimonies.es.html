@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Aqui una descripción (opcional)">
 
-<title>Marifer Rocha Arrangoiz, PhD</title>
+<title>Testimonios</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -51,33 +55,92 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="marifer_theme.css">
-<meta property="og:title" content="Marifer Rocha Arrangoiz, PhD">
+<meta property="og:title" content="Testimonios">
+<meta property="og:description" content="Aqui una descripción (opcional)">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -105,86 +168,86 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Climate change">Climate change <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R tools">R tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Workers Health">Workers Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="datavis">datavis <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla page-columns page-full">
-  <img src="TBD.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Marifer Rocha Arrangoiz, PhD</h1>
+<h1 class="title">Testimonios</h1>
 </div>
-<div class="quarto-title-meta">
+
+<div>
+  <div class="description">
+    Aqui una descripción (opcional)
   </div>
-</header><main class="content page-columns page-full" id="quarto-document-content">
-<div class="column-body-outset">
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>Hi, I’m Marifer. I’m a Highly Sensitive Person, the thing that makes me be a person that really cares about people, and this is my personal value that gives me meaning and purpose as a human being. Each session that I do, I try to give my contribution to the world to make a better place for us and for the future generations. I am sure that each person thriving in their own life and free of negative cycles that keeps them in constant suffering, contribute as well to create this better place.</p>
-<p>I have plenty of studies and experience that give me a map based on the Attachment Theory, and allow me to enjoy helping people by meeting them where they are emotionally and guide them towards comfort and connection with others and themselves.</p>
-<p>As this profession has been my main hobby and purpose in life, I have a Bachelor in Psychology and a Doctorate in Clinical Psychology, both ended with honours. I also have a Master Degree in Clinical Psychology, where I was a student from an International Mobility Program, and was awarded with a scholarship from the National Council for Science and Technology to do so. I haven’t stopped finding ways to specialise myself more in the field. I have worked in Institutional Clinics, teaching at Universities and doing private clinic practice with couples and individuals using the Emotionally Focused Therapy (EFT) model, developed by Dr.&nbsp;Sue Johnson.</p>
-<p>My mission in my job and in my life as a wife and as a mum, is to use my humanity to help people succeed in their inner vulnerability, having the certainty that this will create an unbreakable chain of human connection and well being.</p>
-<p>I would be honoured to have the opportunity to meet you, join you where you are emotionally and add you towards this mission of connection and wellbeing in the world.</p>
-</section>
-<section id="what-clients-feel-grateful-about" class="level2">
-<h2 data-anchor-id="what-clients-feel-grateful-about">What client’s feel grateful about:</h2>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
 </div>
-<div class="callout-body-container">
-<p><em>You were there for me when I was first facing depression and anxiety, and also when you insisted that my parents take family therapy. I remember how committed you were to helping me improve things at home, even when they decided not to continue with therapy.</em></p>
-<p><em>I am now financially independent, I have a new job that I like, I don’t need pills for my depression and anxiety, and in general, I don’t think I’ve ever been as good with myself as I am now. Your support in those years of therapy really made a difference in my life. I don’t think I would have gotten this far without your help, and that’s why I wanted to say: Thank you!</em></p>
-<p><strong><em>J.V.</em></strong></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Marifer, I want to thank you for everything, for listening to me, for knowing how to be my psychologist, for taking care of me when I had a crisis, for not leaving me alone, I really value the work you do, you are an excellent psychologist from the day I met you I was delighted with your work, you know how to listen, advise, you are tactful with every thing and word you say, thank you for taking care of me and accepting to be my psychologist, because I didn’t want to be alive anymore, but you helped me and gave me courage to do so, and to understand many things that I didn’t understand before, now I want so many things that before didn’t even cross my mind, I really want to live, I am very, very grateful to you that I don’t know how to explain it, may God always bless you, and thank you for dedicating yourself to this, which I am sure has helped many people and now they want to continue living and appreciating how beautiful life is, I love you very much and I send you many hugs now that I can, because I thought I would not make it to today</em> ❤</p>
-<p><strong><em>T.</em></strong></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!! GM</em></p>
-</div>
-</div>
-</div>
-</section>
-<section id="experience" class="level2">
-<h2 data-anchor-id="experience">Experience</h2>
-</section>
-<section id="education" class="level2">
-<h2 data-anchor-id="education">Education</h2>
 
 
-</section>
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="datavis,Climate change,Workers Health,R tools" data-listing-date-sort="1741132800000" data-listing-file-modified-sort="1741186644352" data-listing-date-modified-sort="1741132800000" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+<a href="./testimonies/2024-12-31_climate-hazard-01-heat/index.es.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="./testimonies/2024-12-31_climate-hazard-01-heat/img/em-breve.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Mudanças climáticas e riscos ambientais: Calor excessivo
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('datavis'); return false;">
+datavis
 </div>
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://twitter.com" class="about-link" rel="" target="">
-    <i class="bi bi-twitter"></i>
-     <span class="about-link-text">twitter</span>
-  </a>
-  <a href="https://github.com" class="about-link" rel="" target="">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text">instagram</span>
-  </a>
+<div class="listing-category" onclick="window.quartoListingCategory('Climate change'); return false;">
+Climate change
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Workers Health'); return false;">
+Workers Health
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('R tools'); return false;">
+R tools
 </div>
 </div>
- <!-- /main -->
+<div class="card-text listing-description">
+Série de seis infográficos que descrevem os principais riscos à saúde dos trabalhadores relacionados às mudanças climáticas e ao meio ambiente International Labour…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Edgar Rodriguez-Huerta
+</div>
+<div class="listing-date">
+5 mar 2025
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No hay resultados
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -205,6 +268,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -221,12 +291,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
