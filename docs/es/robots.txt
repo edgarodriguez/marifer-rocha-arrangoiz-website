@@ -1,1 +1,1 @@
-Sitemap: https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/sitemap.xml
+Sitemap: https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website.github.io/sitemap.xml
