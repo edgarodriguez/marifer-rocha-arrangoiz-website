@@ -1,5 +1,6 @@
 ---
-title: Marifer Rocha Arrangoiz, PhD
+title: Dr. Marifer Rocha Arrangoiz
+description: Clinical Psychotherapist specializing in Emotionally Focused Therapy (EFT)
 about:
   template: jolla
   image: TBD.jpg
@@ -63,7 +64,9 @@ I would be honoured to have the opportunity to meet you, join you where you are 
 
 ::: {.callout-important appearance="simple" icon=false}
 
-*Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!! GM*
+*Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!!*
+
+***GM***
 :::
 
 ## Experience
