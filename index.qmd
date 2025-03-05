@@ -1,5 +1,5 @@
 ---
-title: Dr. Marifer Rocha Arrangoiz
+title: "Dr. Marifer Rocha Arrangoiz"
 description: Clinical Psychotherapist specializing in Emotionally Focused Therapy (EFT)
 about:
   template: jolla
@@ -11,6 +11,9 @@ about:
     - icon: instagram
       text: instagram
       href: https://github.com
+    - icon: youtube
+      text: youtube
+      href: https://github.com      
 toc: false
 lightbox: false
 title-block-banner: false

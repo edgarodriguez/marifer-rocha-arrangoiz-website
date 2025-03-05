@@ -10,7 +10,7 @@ website:
   draft-mode: visible
   navbar:
     pinned: true
-    logo: "content/img/logo_yellow3.png"
+#    logo: "content/img/logo_yellow3.png"
     background: primary
     left:
       - href: blog.qmd   
