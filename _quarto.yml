@@ -12,7 +12,6 @@ website:
 #   logo: "content/img/logo_yellow3.png"
     background: primary
     left:
-      - href: about.qmd
       - href: blog.qmd   
       - href: testimonies.qmd  
       - href: contact.qmd        
@@ -35,7 +34,7 @@ website:
 format:
   html:
     theme: yeti
-  #  css: marifer_theme.css
+    css: marifer_theme.css
     toc: true
     code-overflow: scroll
 babelquarto:

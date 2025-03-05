@@ -43,19 +43,26 @@ I would be honoured to have the opportunity to meet you, join you where you are 
 
 ## What client's feel grateful about:
 
-::: {.callout-note appearance="simple"}
+::: {.callout-important appearance="simple" icon=false}
 
 1 You were there for me when I was first facing depression and anxiety, and also when you insisted that my parents take family therapy. I remember how committed you were to helping me improve things at home, even when they decided not to continue with therapy.
 
 I am now financially independent, I have a new job that I like, I don't need pills for my depression and anxiety, and in general, I don't think I've ever been as good with myself as I am now. Your support in those years of therapy really made a difference in my life. I don't think I would have gotten this far without your help, and that's why I wanted to say: Thank you! J.V.
 
 :::
-::: {.callout-note appearance="minimal}
-2 Marifer, I want to thank you for everything, for listening to me, for knowing how to be my psychologist, for taking care of me when I had a crisis, for not leaving me alone, I really value the work you do, you are an excellent psychologist from the day I met you I was delighted with your work, you know how to listen, advise, you are tactful with every thing and word you say, thank you for taking care of me and accepting to be my psychologist, because I didn't want to be alive anymore, but you helped me and gave me courage to do so, and to understand many things that I didn't understand before, now I want so many things that before didn't even cross my mind, I really want to live, I am very, very grateful to you that I don't know how to explain it, may God always bless you, and thank you for dedicating yourself to this, which I am sure has helped many people and now they want to continue living and appreciating how beautiful life is, I love you very much and I send you many hugs now that I can, because I thought I would not make it to today ❤️ T
+::: {.callout-important appearance="simple" icon=false}
+
+*Marifer, I want to thank you for everything, for listening to me, for knowing how to be my psychologist, for taking care of me when I had a crisis, for not leaving me alone, I really value the work you do, you are an excellent psychologist from the day I met you I was delighted with your work, you know how to listen, advise, you are tactful with every thing and word you say, thank you for taking care of me and accepting to be my psychologist, because I didn't want to be alive anymore, but you helped me and gave me courage to do so, and to understand many things that I didn't understand before, now I want so many things that before didn't even cross my mind, I really want to live, I am very, very grateful to you that I don't know how to explain it, may God always bless you, and thank you for dedicating yourself to this, which I am sure has helped many people and now they want to continue living and appreciating how beautiful life is, I love you very much and I send you many hugs now that I can, because I thought I would not make it to today ❤*
+
+***T.***
 
 :::
 
-3 Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!! GM
+
+::: {.callout-important appearance="simple" icon=false}
+
+*Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!! GM*
+:::
 
 ## Experience
 
