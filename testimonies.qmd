@@ -1,5 +1,5 @@
 ---
-title: "testimonies"
+title: "Testimonies"
 description: "Here a description (optional)"
 listing:
   contents: testimonies
