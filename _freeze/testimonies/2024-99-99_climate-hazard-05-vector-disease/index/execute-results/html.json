@@ -1,0 +1,15 @@
+{
+  "hash": "75b84ef3fcda111474bf02fe97247ccb",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Climate change and enviromental related risk: Vector-borne diseases\"\ndate: today\ndate-modified: today\ndraft: true\ndraft-mode: visible \nimage: img/coming-soon.png\nexecute:\n  echo: false\ncategories:\n  - datavis\n  - Climate change\n  - Workers Health\n  - R tools\nlang: en\nformat: \n  html:\n    page-layout: full\nlightbox: true\ntoc: false\nauthor:\n  - name: Edgar Rodriguez-Huerta\n    url: https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/our-team/edgar-rodríguez-huerta/index.aspx\n    affiliation: University of Nottingham, Rights Lab\n    affiliation-url: https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/index.aspx\n    orcid: 0000-0002-6887-0040\n\n---\n\n\n\n\n\n\n\n\n\n\nSeries of six infographics describing the main risks to workers' health related to climate change and the environment [International Labour Organization (ILO) 2024](https://www.ilo.org/publications/ensuring-safety-and-health-work-changing-climate)\n\n## Coming soon\n\n\n![](img/vector-borne-soon.png \"Infographic about vector-borne diseases and health issues\")\n\n## Download {.appendix}\n\n- [Download in high resolution]\n- [Look inside the code](Depending the tool and code)\n\n\n#### Share it on social media:\n\n\n\n\n\n```{=html}\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" data-a2a-icon-color=\"#FFDC02,black\">\n\n<a class=\"a2a_button_email a2a_counter\"></a>\n<a class=\"a2a_button_copy_link a2a_counter\"></a>\n<a class=\"a2a_button_linkedin a2a_counter\"></a>\n<a class=\"a2a_button_facebook a2a_counter\"></a>\n<a class=\"a2a_button_bluesky a2a_counter\"></a>\n<a class=\"a2a_button_x a2a_counter\"></a>\n<a class=\"a2a_button_threads a2a_counter\"></a>\n<a class=\"a2a_button_mastodon a2a_counter\"></a>\n<a class=\"a2a_button_whatsapp a2a_counter\"></a>\n<a class=\"a2a_dd a2a_counter\" href=\"https://www.addtoany.com/share\"></a>\n</div>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

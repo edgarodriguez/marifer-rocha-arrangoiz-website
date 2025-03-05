@@ -1,0 +1,12 @@
+---
+title: "Contacto"
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: false
+lang: es
+---
+
+## Enviame un correo
+
+[link to email]

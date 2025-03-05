@@ -1,0 +1,18 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file and render with rmarkdown::render("README.Rmd")-->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Marifer Rocha-Arrangoiz
+
+Source code for [personal website of Edgar Rodriguez Huerta].
+
+Created with [Quarto](https://quarto.org/) in [R](https://www.r-project.org/). 

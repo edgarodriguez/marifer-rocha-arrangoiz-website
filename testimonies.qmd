@@ -1,0 +1,14 @@
+---
+title: "Testimonies"
+description: "Here a description (optional)"
+lang: en
+listing:
+  contents: testimonies
+  feed: true
+  type: grid
+  include:
+    lang: en
+  sort: "date desc"
+  categories: true
+comments: false
+---

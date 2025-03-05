@@ -1,0 +1,55 @@
+project:
+  type: website
+  output-dir: docs
+website:
+# favicon: "content/img/clidewo-favicon.png"
+  site-url: https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/
+  repo-url: https://github.com/edgarodriguez/marifer-rocha-arrangoiz-website
+  open-graph: true
+  draft-mode: visible
+  navbar:
+    pinned: true
+#   logo: "content/img/logo_yellow3.png"
+    background: primary
+    left:
+      - href: about.qmd
+      - href: blog.qmd   
+      - href: testimonies.qmd  
+      - href: contact.qmd        
+                 
+
+  page-footer:
+    background: black
+    left: © Copyright 2025 CC-BY-NC, website design, Edgar Rodríguez-Huerta
+    right: Multi-lenguage thanks to [babelquarto](https://docs.ropensci.org/babelquarto/index.html) and [Joel Nitta Website](https://www.joelnitta.com)
+#  google-analytics: "G-RG1R3XP26Q"
+#  cookie-consent:
+#    type: express
+#    style: headline
+#    palette: dark
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Some message that you want to highlight (optional)"
+    type: success
+    position: below-navbar
+
+format:
+  html:
+    theme: yeti
+  #  css: marifer_theme.css
+    toc: true
+    code-overflow: scroll
+babelquarto:
+  languagecodes:
+  - name: es
+    text: "Español"
+  - name: en
+    text: "English"
+  mainlanguage: 'en'
+  languages: ['es']
+title-es: Marifer Rocha Arragoinz PhD
+description-es: Marifer Rocha
+author-es: Marifer Rocha Arrangoiz
+lang: en
+

@@ -1,0 +1,14 @@
+---
+title: "Contact"
+hide_title: true
+sidebar: false
+page-layout: article
+toc: false
+title-block-banner: false
+lang: en
+---
+
+## Email me
+
+[link to email]
+

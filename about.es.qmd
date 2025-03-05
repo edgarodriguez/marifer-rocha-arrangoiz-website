@@ -1,0 +1,36 @@
+---
+title: "Marifer Rocha Arrangoiz, PhD"
+about:
+  template: jolla
+  image: TBD.jpg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://twitter.com
+    - icon: instagram
+      text: instagram
+      href: https://github.com
+toc: false
+lightbox: false
+title-block-banner: false
+lang: es
+---
+
+```{r}
+#| label: deps
+#| include: false
+#| message: false
+#| warning: false
+
+# Include dependencies to track with renv here
+library(fontawesome)
+```
+
+:::{.column-body-outset}
+
+## Acerca de mi
+
+## Experiencia profesional
+
+## Educación
+

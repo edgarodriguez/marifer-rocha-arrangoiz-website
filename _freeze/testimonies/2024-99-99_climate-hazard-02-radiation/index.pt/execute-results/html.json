@@ -1,0 +1,15 @@
+{
+  "hash": "a2ee6c85d39e3cf16c6fa0813fcf887c",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Mudanças climáticas e riscos ambientais: radiação UV\"\ndate: today\ndate-modified: today\ndraft: true\ndraft-mode: visible \nimage: img/em-breve.png\nexecute:\n  echo: false\ncategories:\n  - datavis\n  - Climate change\n  - Workers Health\n  - R tools\nlang: pt\nformat: \n  html:\n    page-layout: full\nlightbox: true\ntoc: false\nauthor:\n  - name: Edgar Rodriguez-Huerta\n    url: https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/our-team/edgar-rodríguez-huerta/index.aspx\n    affiliation: University of Nottingham, Rights Lab\n    affiliation-url: https://www.nottingham.ac.uk/research/beacons-of-excellence/rights-lab/index.aspx\n    orcid: 0000-0002-6887-0040\n\n---\n\n\n\n\n\n\n\n\n\n\nSérie de seis infográficos que descrevem os principais riscos à saúde dos trabalhadores relacionados às mudanças climáticas e ao meio ambiente [International Labour Organization (ILO) 2024](https://www.ilo.org/publications/ensuring-safety-and-health-work-changing-climate)\n\n## Em breve\n\n\n![](img/uv-radiation-soon.png \"Infográfico sobre radiação uv e problemas de saúde\")\n\n## Download {.appendix}\n\n- [Baixe em alta resolução]\n- [Olhe dentro do código]\n\n#### Compartilhe em redes sociais:\n\n\n\n\n\n```{=html}\n<!-- AddToAny BEGIN -->\n<div class=\"a2a_kit a2a_kit_size_32 a2a_default_style\" data-a2a-icon-color=\"#FFDC02,black\">\n\n<a class=\"a2a_button_email a2a_counter\"></a>\n<a class=\"a2a_button_copy_link a2a_counter\"></a>\n<a class=\"a2a_button_linkedin a2a_counter\"></a>\n<a class=\"a2a_button_facebook a2a_counter\"></a>\n<a class=\"a2a_button_bluesky a2a_counter\"></a>\n<a class=\"a2a_button_x a2a_counter\"></a>\n<a class=\"a2a_button_threads a2a_counter\"></a>\n<a class=\"a2a_button_mastodon a2a_counter\"></a>\n<a class=\"a2a_button_whatsapp a2a_counter\"></a>\n<a class=\"a2a_dd a2a_counter\" href=\"https://www.addtoany.com/share\"></a>\n</div>\n<script async src=\"https://static.addtoany.com/menu/page.js\"></script>\n<!-- AddToAny END -->\n```\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
