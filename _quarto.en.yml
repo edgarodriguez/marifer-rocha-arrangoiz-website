@@ -24,11 +24,17 @@ website:
 #    type: express
 #    style: headline
 #    palette: dark
+  announcement:
+    icon: info-circle
+    dismissable: true
+    content: "Here a optional message"
+    type: success
+    position: below-navbar
 
 format:
   html:
     theme: yeti
-    css: marifer_theme.css
+  #  css: marifer_theme.css
     toc: true
     code-overflow: scroll
 babelquarto:
@@ -43,3 +49,5 @@ title-es: Marifer Rocha Arragoinz PhD
 description-es: Marifer Rocha
 author-es: Marifer Rocha Arrangoiz
 lang: en
+
+callout-appearance: minimal
