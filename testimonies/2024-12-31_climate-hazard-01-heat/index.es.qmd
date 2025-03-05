@@ -37,9 +37,6 @@ author:
 library(fontawesome)
 ```
 
-
-
-
 Série de seis infográficos que descrevem os principais riscos à saúde dos trabalhadores relacionados às mudanças climáticas e ao meio ambiente [International Labour Organization (ILO) 2024](https://www.ilo.org/publications/ensuring-safety-and-health-work-changing-climate)
 
 ## Em breve
