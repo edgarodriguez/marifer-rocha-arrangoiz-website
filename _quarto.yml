@@ -28,7 +28,7 @@ website:
   announcement:
     icon: info-circle
     dismissable: true
-    content: "Mensaje opcional"
+    content: "Some message that you want to highlight (optional)"
     type: success
     position: below-navbar
 
