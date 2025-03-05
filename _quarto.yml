@@ -3,8 +3,8 @@ project:
   output-dir: docs
 website:
 # favicon: "content/img/clidewo-favicon.png"
-  site-url: "https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website.github.io/"
-  repo-url: "https://github.com/edgarodriguez/marifer-rocha-arrangoiz-website.github.io"
+  site-url: "https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/"
+  repo-url: "https://github.com/edgarodriguez/marifer-rocha-arrangoiz-website"
   open-graph: true
   draft-mode: visible
   navbar:
@@ -50,4 +50,3 @@ title-es: Marifer Rocha Arragoinz PhD
 description-es: Marifer Rocha
 author-es: Marifer Rocha Arrangoiz
 lang: en
-
