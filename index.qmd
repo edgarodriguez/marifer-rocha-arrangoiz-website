@@ -1,19 +1,19 @@
 ---
 title: "Dr. Marifer Rocha Arrangoiz"
-description: Clinical Psychotherapist specializing in Emotionally Focused Therapy (EFT)
+description: Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)
 about:
   template: jolla
   image: TBD.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: instagram
-      href: https://github.com
-    - icon: youtube
-      text: youtube
-      href: https://github.com      
+#  links:
+#    - icon: twitter
+#      text: twitter
+#      href: https://twitter.com
+#    - icon: instagram
+#      text: instagram
+#      href: https://github.com
+#    - icon: youtube
+#      text: youtube
+#      href: https://github.com      
 toc: false
 lightbox: false
 title-block-banner: false
@@ -34,18 +34,20 @@ library(fontawesome)
 
 ## About me
 
+Hi, I'm Marifer, and as a [Highly Sensitive Person](https://hsperson.com), I deeply care about others, and this trait gives my life meaning and purpose. In every session, I strive to create a positive impact—not just for the individuals I work with, but for the world as a whole and future generations. When we liberate ourselves from the [negative relational cycles](https://www.youtube.com/watch?v=Qt4VhRHsjm8) in our more meaningful relationships, we get out from a constant suffering and we start contributing to a better and more compassionate world.
 
-Hi, I'm Marifer. I'm a [Highly Sensitive Person](https://hsperson.com), the thing that makes me be a person that really cares about people, and this is my personal value that gives me meaning and purpose as a human being. Each session that I do, I try to give my contribution to the world to make a better place for us and for the future generations. I am sure that each person thriving in their own life and free of negative cycles that keeps them in constant suffering, contribute as well to create this better place.  
+With a deep foundation in [Attachment Theory](https://www.youtube.com/watch?v=SJOjpprbfeE&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=2), I am passionate about meeting people where they are [emotionally](https://youtu.be/SJOjpprbfeE?si=K1EQB6aeC00oHB4C), providing support with empathy, and guiding them towards greater comfort and meaningful connections with themselves and others.
 
-I have plenty of studies and experience that give me a map based on the Attachment Theory, and allow me to enjoy helping people by meeting them where they are emotionally and guide them towards comfort and connection with others and themselves. 
+My dedication to this profession has been the driving force of my life. Apart from my Bachelor in Psychology, I hold a Doctorate in Clinical Psychology, both earned with honours. I also hold a Master's degree in Clinical Psychology, during which I participated in an International Mobility Program and received a scholarship from the National Council for Science and Technology (CONACYT). Committed to continuous learning and specialization, I have gained extensive experience working in institutional clinics, teaching at universities, and practicing privately with individuals and couples using the [Emotionally Focused Therapy (EFT)](https://iceeft.com/what-is-eft-public/), model developed by Dr. Sue Johnson.
 
-As this profession has been my main hobby and purpose in life, I have a Bachelor in Psychology and a Doctorate in Clinical Psychology, both ended with honours. I also have a Master Degree in Clinical Psychology, where I was a student from an International Mobility Program, and was awarded with a scholarship from the National Council for Science and Technology to do so. I haven't stopped finding ways to specialise myself more in the field. I have worked in Institutional Clinics, teaching at Universities and doing private clinic practice with couples and individuals using the Emotionally Focused Therapy (EFT) model, developed by Dr. Sue Johnson.
+Both in my professional journey and in my life as a mother and wife, my mission is to use my humanity to help people embrace their inner vulnerability and to use it to connect with themselves and with others, having the certainty that this will foster a powerful and unbreakable chain of human connection and well-being in the world.
 
-My mission in my job and in my life as a wife and as a mum, is to use my humanity to help people succeed in their inner vulnerability, having the certainty that this will create an unbreakable chain of human connection and well being. 
+I would be honored to meet you, support you in your emotional journey, and walk alongside you in this shared mission of connection.
 
-I would be honoured to have the opportunity to meet you, join you where you are emotionally and add you towards this mission of connection and wellbeing in the world. 
+
 
 ## What client's feel grateful about:
+
 
 ::: {.callout-important appearance="simple" icon=false}
 
@@ -72,7 +74,12 @@ I would be honoured to have the opportunity to meet you, join you where you are 
 ***GM***
 :::
 
-## Experience
+:::{.testimonies}
 
-## Education
+::::{.testimonies-container}
+* Know how to make your own callouts.
+* Be able to mess with some SCSS/CSS styling.
+::::
+:::
+
 

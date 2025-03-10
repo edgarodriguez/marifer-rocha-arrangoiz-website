@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.5.55">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)">
+<meta name="description" content="Commentarios, notes, insights, and information related to the project’s goals">
 
-<title>Dr.&nbsp;Marifer Rocha Arrangoiz</title>
+<title>Blog – Dr.&nbsp;Marifer Rocha Arrangoiz</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,9 +30,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -52,28 +55,86 @@ ul.task-list li input[type="checkbox"] {
   ],
   "show-item-context": false,
   "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
+    "search-no-results-text": "Sin resultados",
+    "search-matching-documents-text": "documentos encontrados",
+    "search-copy-link-title": "Copiar el enlace en la búsqueda",
+    "search-hide-matches-text": "Ocultar resultados adicionales",
+    "search-more-match-text": "resultado adicional en este documento",
+    "search-more-matches-text": "resultados adicionales en este documento",
+    "search-clear-button-title": "Borrar",
     "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
+    "search-detached-cancel-button-title": "Cancelar",
+    "search-submit-button-title": "Enviar",
+    "search-label": "Buscar"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-author','listing-title','listing-description','listing-date','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-image","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="marifer_theme.css">
-<meta property="og:title" content="Dr.&nbsp;Marifer Rocha Arrangoiz">
-<meta property="og:description" content="Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)">
+<meta property="og:title" content="Blog – Dr.&nbsp;Marifer Rocha Arrangoiz">
+<meta property="og:description" content="Commentarios, notes, insights, and information related to the project’s goals">
 <meta property="og:site_name" content="Dr. Marifer Rocha Arrangoiz">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -84,8 +145,8 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Dr.&nbsp;Marifer Rocha Arrangoiz</span>
     </a>
   </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+            <div id="quarto-search" class="" title="Buscar"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navegación de palanca" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -106,86 +167,51 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categorías</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Todas <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla page-columns page-full">
-  <img src="TBD.jpg" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
+<main class="content column-page-left" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Dr.&nbsp;Marifer Rocha Arrangoiz</h1>
+<h1 class="title">Blog</h1>
 </div>
+
 <div>
   <div class="description">
-    Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)
+    Commentarios, notes, insights, and information related to the project’s goals
   </div>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content page-columns page-full" id="quarto-document-content">
-<div class="column-body-outset">
-<section id="about-me" class="level2">
-<h2 data-anchor-id="about-me">About me</h2>
-<p>Hi, I’m Marifer, and as a <a href="https://hsperson.com">Highly Sensitive Person</a>, I deeply care about others, and this trait gives my life meaning and purpose. In every session, I strive to create a positive impact—not just for the individuals I work with, but for the world as a whole and future generations. When we liberate ourselves from the <a href="https://www.youtube.com/watch?v=Qt4VhRHsjm8">negative relational cycles</a> in our more meaningful relationships, we get out from a constant suffering and we start contributing to a better and more compassionate world.</p>
-<p>With a deep foundation in <a href="https://www.youtube.com/watch?v=SJOjpprbfeE&amp;list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&amp;index=2">Attachment Theory</a>, I am passionate about meeting people where they are <a href="https://youtu.be/SJOjpprbfeE?si=K1EQB6aeC00oHB4C">emotionally</a>, providing support with empathy, and guiding them towards greater comfort and meaningful connections with themselves and others.</p>
-<p>My dedication to this profession has been the driving force of my life. Apart from my Bachelor in Psychology, I hold a Doctorate in Clinical Psychology, both earned with honours. I also hold a Master’s degree in Clinical Psychology, during which I participated in an International Mobility Program and received a scholarship from the National Council for Science and Technology (CONACYT). Committed to continuous learning and specialization, I have gained extensive experience working in institutional clinics, teaching at universities, and practicing privately with individuals and couples using the <a href="https://iceeft.com/what-is-eft-public/">Emotionally Focused Therapy (EFT)</a>, model developed by Dr.&nbsp;Sue Johnson.</p>
-<p>Both in my professional journey and in my life as a mother and wife, my mission is to use my humanity to help people embrace their inner vulnerability and to use it to connect with themselves and with others, having the certainty that this will foster a powerful and unbreakable chain of human connection and well-being in the world.</p>
-<p>I would be honored to meet you, support you in your emotional journey, and walk alongside you in this shared mission of connection.</p>
-</section>
-<section id="what-clients-feel-grateful-about" class="level2">
-<h2 data-anchor-id="what-clients-feel-grateful-about">What client’s feel grateful about:</h2>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>You were there for me when I was first facing depression and anxiety, and also when you insisted that my parents take family therapy. I remember how committed you were to helping me improve things at home, even when they decided not to continue with therapy.</em></p>
-<p><em>I am now financially independent, I have a new job that I like, I don’t need pills for my depression and anxiety, and in general, I don’t think I’ve ever been as good with myself as I am now. Your support in those years of therapy really made a difference in my life. I don’t think I would have gotten this far without your help, and that’s why I wanted to say: Thank you!</em></p>
-<p><strong><em>J.V.</em></strong></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Marifer, I want to thank you for everything, for listening to me, for knowing how to be my psychologist, for taking care of me when I had a crisis, for not leaving me alone, I really value the work you do, you are an excellent psychologist from the day I met you I was delighted with your work, you know how to listen, advise, you are tactful with every thing and word you say, thank you for taking care of me and accepting to be my psychologist, because I didn’t want to be alive anymore, but you helped me and gave me courage to do so, and to understand many things that I didn’t understand before, now I want so many things that before didn’t even cross my mind, I really want to live, I am very, very grateful to you that I don’t know how to explain it, may God always bless you, and thank you for dedicating yourself to this, which I am sure has helped many people and now they want to continue living and appreciating how beautiful life is, I love you very much and I send you many hugs now that I can, because I thought I would not make it to today</em> ❤</p>
-<p><strong><em>T.</em></strong></p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-body-container">
-<p><em>Your support pushed me to pursue the goals I had. You have been the person who has supported me the most. I am very happy and grateful for everything you have done for me, and above all, it is so real that you like to help people. Thank you!!</em></p>
-<p><strong><em>GM</em></strong></p>
-</div>
-</div>
-</div>
-<div class="testimonies">
-<div class="testimonies-container">
-<ul>
-<li>Know how to make your own callouts.</li>
-<li>Be able to mess with some SCSS/CSS styling.</li>
-</ul>
-</div>
 </div>
 
 
-</section>
+<div class="quarto-title-meta column-page-left">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+
 </div>
-</main>  
+<div class="listing-no-matching d-none">
+No hay resultados
 </div>
- <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -206,6 +232,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
@@ -222,12 +255,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // flash "checked"
     button.classList.add('code-copy-button-checked');
     var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
+    button.setAttribute("title", "Copiado");
     let tooltip;
     if (window.bootstrap) {
       button.setAttribute("data-bs-toggle", "tooltip");
       button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
+      button.setAttribute("data-bs-title", "Copiado");
       tooltip = new bootstrap.Tooltip(button, 
         { trigger: "manual", 
           customClass: "code-copy-button-tooltip",
