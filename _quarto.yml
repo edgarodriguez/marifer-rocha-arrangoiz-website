@@ -14,7 +14,6 @@ website:
     background: primary
     left:
       - href: blog.qmd   
-      - href: testimonies.qmd  
       - href: contact.qmd        
   page-footer:
     background: black

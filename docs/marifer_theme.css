@@ -209,7 +209,7 @@ a.white {
 /* ALA navbar favicon color */
 
 .bi-ala {
-  content: url("./images/favicon.ico");
+  content: url("./img/favicon.ico");
   height:26px;
 }
 
