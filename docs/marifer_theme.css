@@ -7,58 +7,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bitter:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
 @import url('_extensions/quarto-ext/fontawesome/assets/css/all.css');
 
 
+
 :root {
-  --primary-yellow: #FEDD00;
+  --primary-yellow: #F2EDE2;
   --secondary-orange: #B8573E;
-  --main-font: 'Lora', sans-serif;
-  --subheader-font: 'Lora', sans-serif;
+  --main-font: 'Bitter', sans-serif;
+  --subheader-font: 'Noto Serif', sans-serif;
   --mono-font: 'Fira Mono', monospace;
-  --header-font: 'Bebas Neue' sans-serif;
+  --header-font: 'Noto Serif' sans-serif;
   --bs-navbar-hover-color: #E06E53;
 }
 
 h1,h2,h3,h4,h5,h6 {
-  font-family: 'Bebas Neue', sans-serif;
-	font-weight: 300;
+
+  font-family: 'Noto Serif', sans-serif;
+	font-weight: 400;
+	
  
 }
 
 h1 {
+
+  color: #161F36;
   font-size: 40px;
-	font-weight: 300;
+	font-weight: 400;
  
 }
 
 p,li,ol {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Bitter', sans-serif;
   text-align: justify;
 }
 
 a {
-  font-family: 'Lora', sans-serif;
+  font-family: 'Bitter', sans-serif;
   text-align: justify;
-  color: #1098ad;
+  color: #5E9BD9;
 }
 
 .table a {
-  font-family:'Bebas Neue', sans-serif;
+  font-family:'Noto Serif', sans-serif;
   font-size: 1.5rem;
   text-align: justify;
-  color: #1098ad;
+  color: #5E9BD9;
 }
 
 th {
-    font-family:'Bebas Neue', sans-serif;
+    font-family:'Noto Serif', sans-serif;
     font-size: 1.5rem;
 		font-weight: 100;
 }
 
 body {
     letter-spacing: 1px;
-    font-family: 'Bebas Neue';
+    font-family: 'Noto Serif';
 }
 
 
@@ -78,7 +89,7 @@ body {
 }
 
 .navbar-brand>img {
-    max-height: 110px;
+    max-height: 100px;
     width: auto;
     padding-left: 1px;
     padding-top: 0px;
@@ -110,6 +121,7 @@ a.nav-link {
     color: var(--primary-yellow) !important;
 }
 
+/* navbar logo marifer*/
 .navbar-title {
   display: inline-block;
   padding: 0;
@@ -117,8 +129,9 @@ a.nav-link {
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 200px;
+  width: 100px;
   margin: auto;
+
 }
 
 .navbar-title:hover {
@@ -163,9 +176,9 @@ a.nav-link {
 /* adding from erh*/ 
 
 .navbar li.nav-item  span {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Noto Serif', sans-serif;
   font-size: x-large;
-  font-weight: 300;
+  font-weight: 400;
   
 }
 
@@ -178,6 +191,13 @@ a.nav-link {
   color: var(--primary-yellow);
   font-weight: 300;
 }
+
+.navbar.transparent.navbar-inverse .navbar-inner {
+   background: rgba(0,0,0,0.4);
+}
+
+
+
 /* */
 
 .dropdown-item:active{
@@ -242,10 +262,9 @@ a.white {
 
 /*------------testimonies--------------------*/
 .testimonies {
-  margin: 1em 0;
-  border: 1px solid lightgray;
-  border-left: 5px solid teal; 
-  border-radius: 5px;
+
+  border: 1px solid #BACBD8;
+  border-left: 5px solid #161F36; 
 }
 
 

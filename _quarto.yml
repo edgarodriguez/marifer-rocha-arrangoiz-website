@@ -7,18 +7,18 @@ website:
   site-url: "https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/"
   repo-url: "https://github.com/edgarodriguez/marifer-rocha-arrangoiz-website"
   open-graph: true
-  draft-mode: visible
+  draft-mode: gone
   navbar:
-    pinned: true
+    pinned: false
 #    logo: "content/img/logo_yellow3.png"
-    background: primary
+    background: "#6AABD2"
     left:
       - href: blog.qmd   
       - href: contact.qmd        
   page-footer:
-    background: black
-    left: © Copyright 2025 CC-BY-NC, website design, Edgar Rodríguez-Huerta
-    right: Multi-lenguage gracias a [babelquarto](https://docs.ropensci.org/babelquarto/index.html) and [Joel Nitta Website](https://www.joelnitta.com)
+    background: "#6AABD2"
+    left: © Copyright 2025 CC-BY-NC.
+    right: Multi-lenguage thanks to [babelquarto](https://docs.ropensci.org/babelquarto/index.html) and [Joel Nitta Website](https://www.joelnitta.com)
 #  google-analytics: "G-RG1R3XP26Q"
 #  cookie-consent:
 #    type: express
@@ -31,6 +31,8 @@ format:
     css: marifer_theme.css
     toc: true
     code-overflow: scroll
+    backgroundcolor: "#F8F9FA"
+    smooth-scroll: true 
 babelquarto:
   languagecodes:
   - name: es

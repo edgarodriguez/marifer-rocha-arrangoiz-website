@@ -1,38 +1,14 @@
 [
   {
     "listing": "/blog.html",
-    "items": [
-      "/posts/2024-01-29_enslaved_ethanol/index.html"
-    ]
-  },
-  {
-    "listing": "/testimonies.html",
-    "items": [
-      "/testimonies/2024-12-31_climate-hazard-01-heat/index.html"
-    ]
+    "items": []
   },
   {
     "listing": "/posts.html",
-    "items": [
-      "/posts/2024-01-29_enslaved_ethanol/index.html",
-      "/posts/2024-01-29_enslaved_ethanol/index.es.html"
-    ]
+    "items": []
   },
   {
-    "listing": "/testimonies.es.html",
-    "items": [
-      "/testimonies/2024-12-31_climate-hazard-01-heat/index.es.html"
-    ]
-  },
-  {
-    "listing": "/posts.es.html",
-    "items": [
-      "/posts/2024-01-29_enslaved_ethanol/index.html",
-      "/posts/2024-01-29_enslaved_ethanol/index.es.html"
-    ]
-  },
-  {
-    "listing": "/blog.es.html",
+    "listing": "/testimonies.html",
     "items": []
   }
 ]

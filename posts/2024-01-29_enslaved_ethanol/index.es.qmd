@@ -4,7 +4,7 @@ description:
   "Energias renováveis não são energias completamente limpas. Empresas da cadeia de fornecimento de biocombustíveis estão na “lista suja” que utilizam trabalho escravo ou condições análogas à escravidão"
 date: "2025-01-29"
 date-modified: "2025-01-29"
-draft: false
+draft: true
 image: img/monitor_cover_pt.png
 execute:
   echo: false

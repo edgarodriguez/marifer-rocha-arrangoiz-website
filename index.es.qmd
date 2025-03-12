@@ -1,20 +1,29 @@
 ---
-title: Marifer Rocha Arrangoiz, PhD
-about:
-  template: jolla
-  image: TBD.jpg
-  links:
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com
-    - icon: instagram
-      text: instagram
-      href: https://github.com
+title: "Dr. Marifer Rocha Arrangoiz"
+subtitle: Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)
+image: content/img/drmariferrocha.jpg
 toc: false
+about:
+  id: person-profile
+  template: jolla
+  links:
+    - text: British Emotionally Focused Therapy (BEFT)
+      href: https://www.beftcentre.org/user/dr.+marifer+rocha
+#    - icon: instagram
+#      text: instagram
+#      href: https://github.com
+#    - icon: youtube
+#      text: youtube
+#      href: https://github.com      
+    - text: The British Psychological Society
+      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7
+
 lightbox: false
-title-block-banner: false
 lang: es
 ---
+
+:::{#person-profile}
+:::
 
 ```{r}
 #| label: deps
@@ -26,24 +35,34 @@ lang: es
 library(fontawesome)
 ```
 
-:::{.column-body-outset}
+```{css, echo = FALSE}
+.justify {
+  text-align: justify !important
+}
+```
+
+::: {.justify}
 
 ## Acerca de mi
 
 
-Hola, yo soy Marifer. Soy una [Persona Altamente Sensible](https://hsperson.com), algo que hace que me importe mucho lo que hago por los demás y lo que pasa a mi alrededor; creo que esta es mi característica principal que me hace ser quien soy y que me da sentido y propósito como ser humano. Mi profesión es mi forma de ayudar a que este mundo sea un poco mejor para nosotros y para nuestras futuras generaciones; estoy segura de que cada persona que se libera de un sufrimiento constante tras romper los ciclos negativos en sus relaciones más importantes, contribuye a que otras personas crezcan también emocionalmente y se multiplique el bienestar en el mundo. 
+"Hola, yo soy Marifer. Soy una [Persona Altamente Sensible](https://pasespana.org/como-identificar-a-una-pas/), algo que hace que me importe mucho lo que hago por los demás y lo que pasa a mi alrededor; creo que esta es mi característica principal que me hace ser quien soy y que me da sentido y propósito como ser humano. Mi profesión es mi forma de ayudar a que este mundo sea un poco mejor para nosotros y para nuestras futuras generaciones; estoy segura de que cada persona que se libera de un sufrimiento constante tras romper los [ciclos negativos](https://www.youtube.com/watch?v=Qt4VhRHsjm8) en sus relaciones más importantes, contribuye a que otras personas crezcan también emocionalmente y se multiplique el bienestar en el mundo. 
 
-La Psicología, y específicamente la Teoría del Apego, me dieron un mapa para poder saber cómo conectarme emocionalmente con las personas y guiarlas hacia el alivio y la conexión con ellas mismas y con los demás. 
+La Psicología, y específicamente la [Teoría del Apego](https://youtu.be/OyCHT9AbD_Y?si=OcpcVxiuTj-yhScP), me dieron un mapa para poder saber cómo [conectarme emocionalmente](https://youtu.be/SJOjpprbfeE?si=tjBYOWW8HcrPhLlp) con las personas y guiarlas hacia el alivio y la conexión con ellas mismas y con los demás. 
 
-Descubrir esto ha sido tan apasionante para mí, que he logrado conseguir el apoyo de personas e Instituciones que me han permitido seguir especializándome cada vez más. Tengo la Licenciatura y el Doctorado en Psicología, ambos terminados con honores, y una Maestría en Psicología Clínica que hice en dos universidades gracias a ser parte de un acuerdo bilateral internacional. Para poder cursar mi Maestría y mi Doctorado en el extranjero, tuve el apoyo de una Beca por parte del Consejo Nacional de Ciencia y Tecnología.  Desde entonces, he trabajado en Clínicas de Psicología Institucionales, he trabajado como Docente de Psicología en diferentes Universidades y he trabajado como independiente dando psicoterapia a parejas y a adultos en terapia individual, con la ayuda del modelo de la Terapia Focalizada en las Emociones (TFE), desarrollado por la Dra. Sue Johnson. 
+Descubrir esto ha sido tan apasionante para mí, que he logrado conseguir el apoyo de personas e Instituciones que me han permitido seguir especializándome cada vez más. Tengo la Licenciatura y el Doctorado en Psicología, ambos terminados con honores, y una Maestría en Psicología Clínica que hice en dos universidades gracias a ser parte de un acuerdo bilateral internacional. Para poder cursar mi Maestría y mi Doctorado en el extranjero, tuve el apoyo de una Beca por parte del Consejo Nacional de Ciencia y Tecnología (CONACYT).  Desde entonces, he trabajado en Clínicas de Psicología Institucionales, he trabajado como Docente de Psicología en diferentes Universidades y he trabajado como independiente dando psicoterapia a parejas y a adultos en terapia individual, con la ayuda del modelo de la [Terapia Focalizada en las Emociones (TFE)](https://iceeft.com/what-is-eft-public/), desarrollado por la Dra. Sue Johnson. 
 
-Mi misión en mi vida como esposa, como mamá y como psicóloga, es usar mi propia vulnerabilidad para ayudar a las personas a sobrevivir con las suya; teniendo la certeza de que esto va a crear una cadena inquebrantable de conexión humana y bienestar en el mundo. 
+Mi misión en mi vida como esposa, como mamá y como psicóloga, es usar mi propia vulnerabilidad para ayudar a las personas a sobrevivir con la suya, y a aprender a usarla para hacer conexiones más seguras con ellas/ellos mismas/os y con los demás; teniendo la certeza de que esto va a crear una cadena inquebrantable de conexión humana y bienestar en el mundo. 
  
 Será un honor para mí conocerte, acompañarte y que te sumes a esta gran misión de conexión y bienestar en el mundo. 
 
-## Testimonios:
+:::
 
-::: {.callout-important appearance="simple" icon=false}
+::: {.justify}
+## Testimonios
+:::
+
+::: {.callout-note appearance="simple" icon=false}
 *Me acompañaste cuando enfrentaba por primera vez la depresión y la ansiedad, y también cuando insististe en que mis padres tomaran terapia familiar. Recuerdo lo comprometida que estabas con ayudarme a mejorar las cosas en casa, incluso cuando ellos decidieron no continuar con la terapia.*
 
 *Actualmente ya soy independiente económicamente, tengo un nuevo trabajo que me gusta, no necesito las pastillas para mi depresión y ansiedad, y en general, creo que nunca había estado tan bien conmigo como ahora.*
@@ -52,19 +71,15 @@ Será un honor para mí conocerte, acompañarte y que te sumes a esta gran misi�
 ***J.V.***
 :::
 
-::: {.callout-important appearance="simple" icon=false}
+::: {.callout-note appearance="simple" icon=false}
 *Marifer, quiero darle las gracias por todo, por escucharme, por saber ser mi psicóloga, por atenderme cuando tuve crisis, por no dejarme sola, valoro muchísimo el trabajo que usted hace, es una excelente psicóloga desde el día uno que la conocí quedé encantada con su trabajo, sabe escuchar, aconsejar, tiene tacto con cada cosa y palabra que dice, gracias por atenderme y aceptar ser mi psicóloga, porque yo ya no quería estar más viva, pero usted me ayudó y dio valor para hacerlo, y entender muchas cosas que antes no entendía, ahora tengo ganas de tantas cosas que antes ni siquiera se me pasaban por la cabeza, tengo muchas ganas de vivir, estoy muy muy agradecida con usted que no sé cómo explicarlo, que Dios la bendiga siempre, y gracias por dedicarse a esto, que estoy segura que a ayudado a muchas personas y ahora tienen ganas de seguir viviendo y valorando lo hermosa que es la vida, la quiero mucho y le mando muchos abrazos ahora que puedo, porque pensé que no llegaría al día de hoy* ❤️
 
 ***T***
 :::
 
-::: {.callout-important appearance="simple" icon=false}
+::: {.callout-note appearance="simple" icon=false}
 *Tu apoyo me empujó para buscar los objetivos que tenía. Has sido la persona que más me ha apoyado estoy muy contento y agradecido por todo lo que has hecho por mi, y sobre todo que es algo tan real que te gusta ayudar a las personas. Gracias!!* 
 
 ***GM***
 :::
-
-## Experiencia profesional
-
-## Educación
 

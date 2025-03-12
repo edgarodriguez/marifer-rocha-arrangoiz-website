@@ -5,10 +5,25 @@ sidebar: false
 page-layout: article
 toc: false
 title-block-banner: false
+image: content/img/drmariferrocha.jpg
 lang: en
+about:
+  template: trestles
+  links:
+    - text: Email
+      href: mailto:marifer.rocha.arrangoiz@gmail.com
 ---
 
-## Email me
+::: {.column-screen}
 
-[link to email]
+```{=html}
+<iframe width="640px" height="1100px" src="https://forms.gle/ZppyXfbyKvxhJFSWA" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+```
 
+### Location
+ONLINE - Nottingham, UK
+
+### Office Hours
+- Mon - Thur 8:00 - 14:00 hrs
+- Friday - Sunday: Closed
+:::

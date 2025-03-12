@@ -4,7 +4,7 @@ description:
   "Renewables are not completely clean energy. Companies in the biofuel supply chain are on the “dirty list” using slave labor or conditions analogous to slavery"
 date: "2025-01-29"
 date-modified: "2025-01-29"
-draft: false
+draft: true
 image: img/monitor_cover_en.png
 execute:
   echo: false
