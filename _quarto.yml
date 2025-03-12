@@ -12,7 +12,7 @@ website:
     pinned: false
 #    logo: "content/img/logo_yellow3.png"
     background: "#6AABD2"
-    left:
+    right:
       - href: blog.qmd   
       - text: Contact 
         href: contact.qmd        
