@@ -129,7 +129,7 @@ a.nav-link {
   padding-left: 5px;
   padding-top: 0px;
   padding-bottom: 0px;
-  width: 100px;
+  width: 200px;
   margin: auto;
 
 }
@@ -250,6 +250,13 @@ a.white {
 /* Add space between Posts title & description */
 #title-block-header.quarto-title-block.default .quarto-title .title {
     margin-bottom: 10px;
+}
+
+
+/* Footer */
+
+.custom-footer {
+  color: red; /* Change to your preferred color */
 }
 
 
