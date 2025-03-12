@@ -1,7 +1,11 @@
 ---
-title: "Contact"
-subtitle: "Location: ONLINE - Nottingham, UK"
-Description: "Office Hours: Mon - Thur 8:00 - 14:00 hrs (GMT)"
+title: ""
+subtitle: |
+  Location: ONLINE - Nottingham, UK
+  
+  Office Hours: Mon - Thur 8:00 - 14:00 hrs (GMT)
+  
+  marifer.rocha.arrangoiz[at]gmail.com
 hide_title: true
 sidebar: false
 page-layout: article
@@ -19,11 +23,7 @@ about:
 ::: {.column-screen}
 
 ```{=html}
-<iframe width="640px" height="1100px" src="https://forms.gle/ZppyXfbyKvxhJFSWA" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+<iframe width="640px" height="1200px" src="https://forms.gle/ZppyXfbyKvxhJFSWA" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
 ```
 
-
-### Office Hours
-- Mon - Thur 8:00 - 14:00 hrs
-- Friday - Sunday: Closed
 :::
