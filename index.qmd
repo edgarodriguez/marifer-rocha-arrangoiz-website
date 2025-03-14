@@ -7,9 +7,8 @@ about:
   id: person-profile
   template: jolla
   links:
-    - text: Email
-      href: mailto:marifer.rocha.arrangoiz@gmail.com
-        	
+    - text: The British Psychological Society
+      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
     - text: British Emotionally Focused Therapy (BEFT)
       href: https://www.beftcentre.org/user/dr.+marifer+rocha
 #    - icon: instagram
@@ -18,11 +17,8 @@ about:
 #    - icon: youtube
 #      text: youtube
 #      href: https://github.com      
-    - text: The British Psychological Society
-      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7
 
 
-email-obfuscation: javascript      
                   
 lightbox: true
 lang: en
@@ -53,7 +49,7 @@ library(fontawesome)
 ## About me
 Hi, I'm Marifer, and as a [Highly Sensitive Person](https://hsperson.com), I deeply care about others, and this trait gives my life meaning and purpose. In every session, I strive to create a positive impact—not just for the individuals I work with, but for the world as a whole and future generations. When we liberate ourselves from the [negative relational cycles](https://www.youtube.com/watch?v=Qt4VhRHsjm8) in our more meaningful relationships, we get out from a constant suffering and we start contributing to a better and more compassionate world.
 
-With a deep foundation in [Attachment Theory](https://www.youtube.com/watch?v=SJOjpprbfeE&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=2), I am passionate about meeting people where they are [emotionally](https://youtu.be/SJOjpprbfeE?si=K1EQB6aeC00oHB4C), providing support with empathy, and guiding them towards greater comfort and meaningful connections with themselves and others.
+With a deep foundation in [Attachment Theory](https://www.youtube.com/watch?v=OyCHT9AbD_Y&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=5), I am passionate about meeting people where they are [emotionally](https://youtu.be/SJOjpprbfeE?si=K1EQB6aeC00oHB4C), providing support with empathy, and guiding them towards greater comfort and meaningful connections with themselves and others.
 
 My dedication to this profession has been the driving force of my life. Apart from my Bachelor in Psychology, I hold a Doctorate in Clinical Psychology, both earned with honours. I also hold a Master's degree in Clinical Psychology, during which I participated in an International Mobility Program and received a scholarship from the National Council for Science and Technology (CONACYT). Committed to continuous learning and specialization, I have gained extensive experience working in institutional clinics, teaching at universities, and practicing privately with individuals and couples using the [Emotionally Focused Therapy (EFT)](https://iceeft.com/what-is-eft-public/), model developed by Dr. Sue Johnson.
 
@@ -63,7 +59,7 @@ I would be honored to meet you, support you in your emotional journey, and walk 
 :::
 
 ::: {.justify}
-## What client's feel grateful about
+## What people feel grateful about me and my work
 :::
 
 ::: {.callout-note appearance="simple" icon=false}

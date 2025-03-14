@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Commentarios, notes, insights, and information related to the project's goals"
+subtitle: "Reflexiones sobre la Terapia Centrada en las Emociones (EFT) y la Teoría del Apego (próximamente)"
 lang: es
 listing:
   contents: posts

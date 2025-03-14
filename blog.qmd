@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "Comments, notes, insights, and information related to the project's goals"
+subtitle: "Reflections on Emotionally Focused Therapy (EFT) and Attachment Theory (Coming soon)"
 lang: en
 listing:
   contents: posts

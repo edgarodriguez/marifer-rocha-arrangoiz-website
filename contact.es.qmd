@@ -1,5 +1,11 @@
 ---
-title: "Contacto"
+title: ""
+subtitle: |
+  Location: ONLINE - Nottingham, UK
+  
+  Office Hours: Mon - Thur 8:00 - 14:00 hrs (GMT)
+  
+  marifer.rocha.arrangoiz[at]gmail.com
 sidebar: false
 page-layout: article
 toc: false
@@ -7,6 +13,10 @@ title-block-banner: false
 lang: es
 ---
 
-## Enviame un correo
+::: {.column-screen}
 
-[link to email]
+```{=html}
+<iframe width="640px" height="1200px" src="https://forms.gle/ZppyXfbyKvxhJFSWA" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
+```
+
+:::
