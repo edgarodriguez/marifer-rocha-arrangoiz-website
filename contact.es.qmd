@@ -1,16 +1,23 @@
 ---
 title: ""
 subtitle: |
-  Location: ONLINE - Nottingham, UK
+  Ubicación: EN LINÉA - Nottingham, UK
   
-  Office Hours: Mon - Thur 8:00 - 14:00 hrs (GMT)
+  Horarios: Lunes - Jueves 8:00 - 14:00 hrs (GMT)
   
   marifer.rocha.arrangoiz[at]gmail.com
+hide_title: true
 sidebar: false
 page-layout: article
 toc: false
 title-block-banner: false
+image: content/img/drmariferrocha.jpg
 lang: es
+about:
+  template: trestles
+  links:
+    - text: Email
+      href: mailto:marifer.rocha.arrangoiz@gmail.com
 ---
 
 ::: {.column-screen}

@@ -10,5 +10,17 @@
   {
     "listing": "/posts.html",
     "items": []
+  },
+  {
+    "listing": "/testimonies.es.html",
+    "items": []
+  },
+  {
+    "listing": "/posts.es.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.es.html",
+    "items": []
   }
 ]

@@ -1,6 +1,6 @@
 ---
 title: "Dr. Marifer Rocha Arrangoiz"
-subtitle: Clinical Psychologist, specialized in Emotionally Focused Therapy (EFT)
+subtitle: Clinical Psychologist, BSc (Hons), DClinPsy (Hons). Emotionally focused Therapy (EFT)
 image: content/img/drmariferrocha.jpg
 toc: false
 about:

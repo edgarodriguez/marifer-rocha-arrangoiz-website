@@ -4,7 +4,7 @@ project:
 website:
 # favicon: "content/img/clidewo-favicon.png"
   title: "Dr. Marifer Rocha Arrangoiz"
-  site-url: "https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/"
+  site-url: "https://drmariferrocha.com"
   repo-url: "https://github.com/edgarodriguez/marifer-rocha-arrangoiz-website"
   open-graph: true
   draft-mode: gone
@@ -32,7 +32,7 @@ format:
     css: marifer_theme.css
     toc: true
     code-overflow: scroll
-    backgroundcolor: "#F8F9FA"
+    backgroundcolor: "#F2EDE2"
     smooth-scroll: true 
 babelquarto:
   languagecodes:
