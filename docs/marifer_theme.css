@@ -18,7 +18,7 @@
 
 
 :root {
-  --primary-yellow: #F2EDE2;
+  --primary-yellow: #BACBD8;
   --secondary-orange: #B8573E;
   --main-font: 'Bitter', sans-serif;
   --subheader-font: 'Noto Serif', sans-serif;
@@ -247,9 +247,28 @@ a.white {
   font-size: .8rem;
 }
 
+
+/* TITLE */
+
+
+
+.quarto-title > h1.title {
+ 
+  
+  text-align: border-left;
+  opacity: 70 !important;
+}
+
+.quarto-subtitle > h1.subtitle {
+ 
+  background-color: #F2EDE2;
+  text-align: center;
+  opacity: 0 !important;
+}
+
 /* Add space between Posts title & description */
 #title-block-header.quarto-title-block.default .quarto-title .title {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 

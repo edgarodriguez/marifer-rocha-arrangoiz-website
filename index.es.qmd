@@ -1,16 +1,16 @@
 ---
 title: "Dr. Marifer Rocha Arrangoiz"
-subtitle: Psicóloga Clínica, especializada en Terapia Focalizada en las Emociones (EFT)
+subtitle: Licenciatura en Psicología (con honores), Maestría y Doctorado en Psicología Clínica
 image: content/img/drmariferrocha.jpg
 toc: false
 about:
   id: person-profile
   template: jolla
   links:
-    - text: The British Psychological Society
-      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
-    - text: British Emotionally Focused Therapy (BEFT)
-      href: https://www.beftcentre.org/user/dr.+marifer+rocha
+    - text: Terapia Bilingüe Inglés-Español en Línea
+#      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
+#    - text: British Emotionally Focused Therapy (BEFT)
+#      href: https://www.beftcentre.org/user/dr.+marifer+rocha
 #    - icon: instagram
 #      text: instagram
 #      href: https://github.com
@@ -18,6 +18,26 @@ about:
 #      text: youtube
 #      href: https://github.com      
 
+title-block-banner: "#00000000"
+title-block-banner-color: "#00000000"
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: #00000000;
+      }
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+        position-y: left;
+        
+      }
+      #title-block-header {
+        background-image: url(content/img/opt1_es.png);
+        background-size: cover;
+        background-position-y: center;
+        height: 350px;
+      }
+      </style>
 
 lightbox: false
 lang: es
@@ -44,22 +64,32 @@ library(fontawesome)
 
 ::: {.justify}
 
-## Acerca de mí
 
-Hola, yo soy Marifer. Soy una [Persona Altamente Sensible](https://pasespana.org/como-identificar-a-una-pas/), algo que hace que me importe mucho lo que hago por los demás y lo que pasa a mi alrededor; creo que esta es mi característica principal que me hace ser quien soy y que me da sentido y propósito como ser humano. Mi profesión es mi forma de ayudar a que este mundo sea un poco mejor para nosotros y para nuestras futuras generaciones; estoy segura de que cada persona que se libera de un sufrimiento constante tras romper los [ciclos negativos](https://www.youtube.com/watch?v=Qt4VhRHsjm8) en sus relaciones más importantes, contribuye a que otras personas crezcan también emocionalmente y se multiplique el bienestar en el mundo. 
+Hola!, yo soy Marifer,
 
-La Psicología, y específicamente la [Teoría del Apego](https://youtu.be/OyCHT9AbD_Y?si=OcpcVxiuTj-yhScP), me dieron un mapa para poder saber cómo [conectarme emocionalmente](https://youtu.be/SJOjpprbfeE?si=tjBYOWW8HcrPhLlp) con las personas y guiarlas hacia el alivio y la conexión con ellas mismas y con los demás. 
+Soy psicóloga clínica con 15 años de experiencia trabajando en clínicas institucionales, impartiendo docencia en universidades y ejerciendo de forma privada con personas y parejas utilizando el modelo de [Terapia Focalizada en las Emociones (TFE)](https://iceeft.com/what-is-eft-public/), desarrollado por la Dra. Sue Johnson.
 
-Descubrir esto ha sido tan apasionante para mí, que he logrado conseguir el apoyo de personas e Instituciones que me han permitido seguir especializándome cada vez más. Tengo la Licenciatura y el Doctorado en Psicología, ambos terminados con honores, y una Maestría en Psicología Clínica que hice en dos universidades gracias a ser parte de un acuerdo bilateral internacional. Para poder cursar mi Maestría y mi Doctorado en el extranjero, tuve el apoyo de una Beca por parte del Consejo Nacional de Ciencia y Tecnología (CONACYT).  Desde entonces, he trabajado en Clínicas de Psicología Institucionales, he trabajado como Docente de Psicología en diferentes Universidades y he trabajado como independiente dando psicoterapia a parejas y a adultos en terapia individual, con la ayuda del modelo de la [Terapia Focalizada en las Emociones (TFE)](https://iceeft.com/what-is-eft-public/), desarrollado por la Dra. Sue Johnson. 
+Soy miembro colegiada de la Sociedad Británica de Psicología (BPS), así como miembro del Centro Británico de Terapia Centrada en las Emociones (BEFT).
 
-Mi misión en mi vida como esposa, como mamá y como psicóloga, es usar mi propia vulnerabilidad para ayudar a las personas a sobrevivir con la suya, y a aprender a usarla para hacer conexiones más seguras con ellas/ellos mismas/os y con los demás; teniendo la certeza de que esto va a crear una cadena inquebrantable de conexión humana y bienestar en el mundo. 
- 
-Será un honor para mí conocerte, acompañarte y que te sumes a esta gran misión de conexión y bienestar en el mundo. 
+Mi dedicación a esta profesión ha sido el motor de mi vida. Además de mi Licenciatura en Psicología, cuento con un Doctorado en Psicología Clínica, ambos con honores. También tengo una Maestría en Psicología Clínica, durante la cual participé en un Programa de Movilidad Internacional y recibí una beca del Consejo Nacional de Ciencia y Tecnología (CONACYT).
+
+Comprometida con la formación continua y la especialización, he adquirido experiencia trabajando especialmente con personas que han experimentado trauma en sus vidas. TFE ofrece un "refugio seguro", donde, incluso en terapia de pareja o individual, existe un mapa que nos permite crear la seguridad necesaria para explorar tu mundo interior durante tus sesiones de terapia.
+
+Con una sólida base en la [Teoría del Apego](https://www.youtube.com/watch?v=OyCHT9AbD_Y&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=5), la EFT me permite ordenar tus experiencias emocionales y guiarte hacia tu sentido de integración, autorregulación y confianza para acercarte a tus seres queridos y construir conexiones más seguras con ellos.
+
+Como [Persona Altamente Sensible](https://hsperson.com), me preocupo profundamente por los demás, y esta cualidad le da sentido y propósito a mi vida. En cada sesión, me esfuerzo por generar un impacto positivo, no solo para las personas con las que trabajo, sino para el mundo en su conjunto y las generaciones futuras. Cuando nos liberamos de los [ciclos relacionales negativos](https://www.youtube.com/watch?v=Qt4VhRHsjm8) en nuestras relaciones más significativas, superamos el sufrimiento constante y comenzamos a contribuir a un mundo mejor y más compasivo.
+
+Tanto en mi trayectoria profesional como en mi vida como madre y esposa, mi misión es usar mi humanidad para ayudar a las personas a aceptar su vulnerabilidad interior y a usarla para conectar consigo mismas y con los demás, con la certeza de que esto fomentará una poderosa e inquebrantable cadena de conexión humana y bienestar en el mundo.
+
+Será un honor para mí conocerte, apoyarte en tu camino emocional y acompañarte en esta misión compartida de conexión y orientación hacia tus objetivos personales.
+
+Ofrezco terapia privada bilingüe (inglés-español), a distancia/en línea, por Zoom.
+
 
 :::
 
 ::: {.justify}
-## Lo que la gente siente por mí y mi trabajo
+## Testimonios
 :::
 
 ::: {.callout-note appearance="simple" icon=false}

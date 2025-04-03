@@ -1,16 +1,14 @@
 ---
-title: "Dr. Marifer Rocha Arrangoiz"
-subtitle: Clinical Psychologist, BSc (Hons), DClinPsy (Hons). Emotionally focused Therapy (EFT)
+title: "Dr Marifer Rocha Arrangoiz"
+subtitle: Clinical Psychologist, BSc (Hons), MS, DClinPsych (Hons)
 image: content/img/drmariferrocha.jpg
 toc: false
 about:
   id: person-profile
   template: jolla
   links:
-    - text: The British Psychological Society
-      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
-    - text: British Emotionally Focused Therapy (BEFT)
-      href: https://www.beftcentre.org/user/dr.+marifer+rocha
+    - text: Online Bilingual English-Spanish Therapy
+#      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
 #    - icon: instagram
 #      text: instagram
 #      href: https://github.com
@@ -18,8 +16,26 @@ about:
 #      text: youtube
 #      href: https://github.com      
 
-
-                  
+title-block-banner: "#00000000"
+title-block-banner-color: "#00000000"
+include-in-header:
+  - text: |
+      <style>
+      #title-block-header.quarto-title-block.default .quarto-title-meta {
+        color: #00000000;
+      }
+      .quarto-title-block .quarto-title-banner {
+        height: 0;
+        position-y: left;
+        
+      }
+      #title-block-header {
+        background-image: url(content/img/opt1.png);
+        background-size: cover;
+        background-position-y: center;
+        height: 350px;
+      }
+      </style>
 lightbox: true
 lang: en
 
@@ -46,20 +62,34 @@ library(fontawesome)
 
 ::: {.justify}
 
-## About me
-Hi, I'm Marifer, and as a [Highly Sensitive Person](https://hsperson.com), I deeply care about others, and this trait gives my life meaning and purpose. In every session, I strive to create a positive impact—not just for the individuals I work with, but for the world as a whole and future generations. When we liberate ourselves from the [negative relational cycles](https://www.youtube.com/watch?v=Qt4VhRHsjm8) in our more meaningful relationships, we get out from a constant suffering and we start contributing to a better and more compassionate world.
 
-With a deep foundation in [Attachment Theory](https://www.youtube.com/watch?v=OyCHT9AbD_Y&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=5), I am passionate about meeting people where they are [emotionally](https://youtu.be/SJOjpprbfeE?si=K1EQB6aeC00oHB4C), providing support with empathy, and guiding them towards greater comfort and meaningful connections with themselves and others.
+I’m a Clinical Psychologist with 15 years of experience working in institutional clinics, teaching at universities, and practising privately with individuals and couples using the model of [Emotionally Focused Therapy (EFT)](https://iceeft.com/what-is-eft-public/),developed by Dr Sue Johnson.
 
-My dedication to this profession has been the driving force of my life. Apart from my Bachelor in Psychology, I hold a Doctorate in Clinical Psychology, both earned with honours. I also hold a Master's degree in Clinical Psychology, during which I participated in an International Mobility Program and received a scholarship from the National Council for Science and Technology (CONACYT). Committed to continuous learning and specialization, I have gained extensive experience working in institutional clinics, teaching at universities, and practicing privately with individuals and couples using the [Emotionally Focused Therapy (EFT)](https://iceeft.com/what-is-eft-public/), model developed by Dr. Sue Johnson.
+
+I’m a Chartered Member of the British Psychological Society (BPS) and a Member of the British Emotionally Focused Therapy Centre (BEFT).
+
+My dedication to this profession has been the driving force of my life. Apart from my bachelor’s in psychology, I hold a Doctorate in Clinical Psychology, both earned with honours. I also have a master’s degree in clinical psychology, during which I participated in an International Mobility Program and received a scholarship from the National Council for Science and Technology (CONACYT).
+
+Committed to continuous learning and specialisation, I have gained experience, especially working with people who have experienced trauma in their lives. EFT provides a “safe haven”, where even in couples or individual therapy, there is a map for us to create enough security in the room to explore your inner world as it unfolds in the present moment of your therapy sessions. 
+
+With a deep foundation in [Attachment Theory](https://www.youtube.com/watch?v=OyCHT9AbD_Y&list=PL9JGldiXzvlUDLO5uKDsa-Pomus6Y6l1g&index=5), EFT allows me to order your emotional experiences and guide you towards your sense of integration, self-regulation and confidence to get closer to your significant others and build secure connections with them. 
+
+As a [Highly Sensitive Person](https://hsperson.com), I deeply care about others, and this trait gives my life meaning and purpose. In every session, I strive to create a positive impact—not just for the individuals I work with but for the world as a whole and future generations. When we liberate ourselves from the [negative relational cycles](https://www.youtube.com/watch?v=Qt4VhRHsjm8) in our more meaningful relationships, we get out of constant suffering and start contributing to a better and more compassionate world.
+
 
 Both in my professional journey and in my life as a mother and wife, my mission is to use my humanity to help people embrace their inner vulnerability and to use it to connect with themselves and with others, having the certainty that this will foster a powerful and unbreakable chain of human connection and well-being in the world.
 
-I would be honored to meet you, support you in your emotional journey, and walk alongside you in this shared mission of connection.
+I would be honoured to meet you, support you in your emotional journey, and walk alongside you in this shared mission of connection and orientation to your personal objectives.
+
+I offer bilingual (English-Spanish), remote/online private therapy via Zoom.
+
+
 :::
 
 ::: {.justify}
-## What people feel grateful about me and my work
+
+
+## Testimonials
 :::
 
 ::: {.callout-note appearance="simple" icon=false}

@@ -6,10 +6,10 @@
       version="2.0">
 <channel>
 <title>Dr. Marifer Rocha Arrangoiz</title>
-<link>https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/testimonies.html</link>
-<atom:link href="https://edgarodriguez.github.io/marifer-rocha-arrangoiz-website/testimonies.xml" rel="self" type="application/rss+xml"/>
+<link>https://drmariferrocha.com/testimonies.html</link>
+<atom:link href="https://drmariferrocha.com/testimonies.xml" rel="self" type="application/rss+xml"/>
 <description>Here a description (optional)</description>
 <generator>quarto-1.7.15</generator>
-<lastBuildDate>Mon, 17 Mar 2025 12:30:46 GMT</lastBuildDate>
+<lastBuildDate>Thu, 03 Apr 2025 13:38:42 GMT</lastBuildDate>
 </channel>
 </rss>
