@@ -60,28 +60,40 @@ ul.task-list li input[type="checkbox"] {
       .quarto-title-block .quarto-title-banner h5,
       .quarto-title-block .quarto-title-banner h6
       {
-        color: #00000000;
+        color: #FFFFFF;
       }
 
       .quarto-title-block .quarto-title-banner {
-        color: #00000000;
+        color: #FFFFFF;
 background: #00000000;
       }
 </style>
 <style>
-#title-block-header.quarto-title-block.default .quarto-title-meta {
-  color: #00000000;
-}
-.quarto-title-block .quarto-title-banner {
-  height: 0;
-  position-y: left;
-
-}
+/* Background image for full header */
 #title-block-header {
-  background-image: url(content/img/opt1_es.png);
+  background-image: url(content/img/background_2.jpg);
   background-size: cover;
-  background-position-y: center;
+  background-position: center;
   height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Wrapper around the title and subtitle */
+#title-block-header .quarto-title-banner {
+  background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black box */
+  padding: 1em 2em;
+  border-radius: 10px;
+  display: inline-block;
+  max-width: 80%;
+}
+
+/* Optional: make metadata more readable or hide */
+#title-block-header .quarto-title-meta {
+  color: #CCCCCC;  /* Light gray meta text */
 }
 </style>
 <link rel="stylesheet" href="marifer_theme.css">

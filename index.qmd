@@ -8,34 +8,44 @@ about:
   template: jolla
   links:
     - text: Online Bilingual English-Spanish Therapy
-#      href: https://portal.bps.org.uk/Psychologist-Search/Chartered-Member-List/Member-Details?entityid=4f9a14a0-94ee-ed11-8848-6045bd0e63d7  	
-#    - icon: instagram
-#      text: instagram
-#      href: https://github.com
+
 #    - icon: youtube
 #      text: youtube
 #      href: https://github.com      
 
-title-block-banner: "#00000000"
-title-block-banner-color: "#00000000"
+title-block-banner: "#00000000"  # Fully transparent banner background
+title-block-banner-color: "#FFFFFF"  # White text for title/subtitle
 include-in-header:
   - text: |
       <style>
-      #title-block-header.quarto-title-block.default .quarto-title-meta {
-        color: #00000000;
-      }
-      .quarto-title-block .quarto-title-banner {
-        height: 0;
-        position-y: left;
-        
-      }
+      /* Background image for full header */
       #title-block-header {
-        background-image: url(content/img/opt1.png);
+        background-image: url(content/img/background_2.jpg);
         background-size: cover;
-        background-position-y: center;
+        background-position: center;
         height: 350px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 1em;
+      }
+
+      /* Wrapper around the title and subtitle */
+      #title-block-header .quarto-title-banner {
+        background-color: rgba(0, 0, 0, 0.6); /* semi-transparent black box */
+        padding: 1em 2em;
+        border-radius: 10px;
+        display: inline-block;
+        max-width: 80%;
+      }
+
+      /* Optional: make metadata more readable or hide */
+      #title-block-header .quarto-title-meta {
+        color: #CCCCCC;  /* Light gray meta text */
       }
       </style>
+
 lightbox: true
 lang: en
 
@@ -62,6 +72,7 @@ library(fontawesome)
 
 ::: {.justify}
 
+Hi I'm Marifer, 
 
 I’m a Clinical Psychologist with 15 years of experience working in institutional clinics, teaching at universities, and practising privately with individuals and couples using the model of [Emotionally Focused Therapy (EFT)](https://iceeft.com/what-is-eft-public/),developed by Dr Sue Johnson.
 
